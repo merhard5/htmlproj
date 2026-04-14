@@ -9,13 +9,17 @@
    }
   </style>
     <h1>
+      Time Wasted
       <div class="stopwatch">
+      
   <div id="display">00:00:00</div>
-  <div class="controls">
-    <button onclick="start()">Start</button>
-    <button onclick="stop()">Stop</button>
-    <button onclick="reset()">Reset</button>
-  </div>
+<script>
+var c = 0;
+function stopwatch() {
+  document.getElementById("demo").innerHTML = ++c;
+}
+</script> 
+    
 </div>
 
       <br>
